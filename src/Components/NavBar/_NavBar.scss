@@ -17,6 +17,26 @@ header {
   }
 }
 
+.nav-bar-icons {
+  margin: 10px 0px 0px 25px;
+  display: flex;
+  // align-items: center; 
+}
+
+.nat-hab-logo {
+  height: 100px;
+  margin-right: 10px;
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+
+}
+
+.wwf-logo {
+  height: 90px;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px;
+}
+
 .nav-bar-links {
   display: flex;
 }

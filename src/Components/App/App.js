@@ -10,7 +10,6 @@ import NewsletterSignUp from '../NewsletterSignUp/NewsletterSignUp';
 import Accolades from '../Accolades/Accolades';
 import Footer from '../Footer/Footer';
 import StickyFooter from '../StickyFooter/StickyFooter';
-import './App.css';
 
 
 function App() {

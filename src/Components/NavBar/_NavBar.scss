@@ -1,0 +1,33 @@
+header {
+  color: #AC6303;
+  display: flex;
+  justify-content: space-between;
+  background: #F4F6F9;
+  border-bottom: 1px solid #D5D5D5;
+  height: 38px;
+
+
+  h5 {
+    margin: 10px;
+  }
+
+  h5:hover {
+    color: #333333;
+    cursor: pointer;
+  }
+}
+
+.nav-bar-links {
+  display: flex;
+}
+
+.catalog-link {
+  color: #FFFFFF;
+  background-color: #FA6121;
+}
+
+.catalog-link:hover {
+  color: #FFFFFF;
+  background-color: #23324B;
+}
+

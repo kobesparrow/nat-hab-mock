@@ -5,10 +5,13 @@ header {
   background: #F4F6F9;
   border-bottom: 1px solid #D5D5D5;
   height: 38px;
-
+  position: fixed;
+  width: 100%;
+  margin: 0px;
 
   h5 {
     margin: 10px;
+    font-weight: 600;
   }
 
   h5:hover {
@@ -20,7 +23,6 @@ header {
 .nav-bar-icons {
   margin: 10px 0px 0px 25px;
   display: flex;
-  // align-items: center; 
 }
 
 .nat-hab-logo {
@@ -49,5 +51,6 @@ header {
 .catalog-link:hover {
   color: #FFFFFF;
   background-color: #23324B;
+  transition: 0.3s;
 }
 

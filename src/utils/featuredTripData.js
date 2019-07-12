@@ -80,5 +80,3 @@ export const featuredTripData = [
     additionalDetails: null
   }
 ]
-
-// export default featuredTripData

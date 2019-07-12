@@ -1,4 +1,5 @@
 import React from 'react';
+import { featuredTripData } from '../../utils/featuredTripData';
 
 const FeaturedTrips = () => {
 

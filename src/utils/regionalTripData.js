@@ -70,7 +70,7 @@ const regionalTripData = [
     details: "From portugal to Iceland to Scotland's isles and highlands, explore Europe's wild side!",
     image: "https://i.postimg.cc/Bbw7B6R2/47-Scotlands-Wild-Highlands-Islands.jpg",
     alt: "sunset somehwere in Europe"
-  },
+  }
 ]
 
 export default regionalTripData;

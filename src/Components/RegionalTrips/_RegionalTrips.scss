@@ -3,4 +3,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}
+
+.regional-trip-cards {
+  display: grid;
+  grid-template-columns: 415px 415px;
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
 }

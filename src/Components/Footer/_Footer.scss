@@ -2,6 +2,12 @@
   background-color: #23324B;
   color: #FFFFFF;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-columns {
+  display: flex;
   justify-content: center;
 }
 
@@ -14,5 +20,28 @@
 
   p {
     font-size: 15px;
+  }
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-numbers {
+  display: flex;
+}
+
+.phone-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+
+  .number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
 }

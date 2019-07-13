@@ -1,0 +1,81 @@
+.newsletter-signup {
+  background-color: #23324B;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-content {
+  padding: 50px;
+  display: flex;
+}
+
+.newsletter-intro {
+  width: 205px;
+  margin-right: 40px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h5 {
+      font-size: 20px;
+      margin: 5px 0px;;
+    }
+
+  p {
+    font-weight: 100;
+    margin: 5px 0px;
+    line-height: 26px;
+  }
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-weight: 600;
+      margin-bottom: 0px;
+    }
+  }
+  
+  input {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    height: 54px;
+    border: none;
+    background-color: #FA6121;
+    border-radius: 5px;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    width: 75px;
+    position: relative;
+    top: 21px;
+  }
+
+  p {
+    width: 20px;
+    font-weight: 100;
+    line-height: 26px;
+  }
+}
+
+.privacy-policy {
+  position: relative;
+  top: 21px;
+
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import YouTube from 'react-youtube';
 
 const VideoMain = () => {
 
   return (
-    <section>
-      Insert Video Here.
+    <section className="video-main">
+      <YouTube videoID="NJlDF398-bk" />
     </section>
   )
 }

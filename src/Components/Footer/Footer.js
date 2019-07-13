@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
 
   return (
-    <section>
-      <section>
+    <section className="footer">
+      <section className="footer-column">
         <h6>Interests</h6>
         <p>Specialized Photography Tours</p>
         <p>Family Adventures</p>
@@ -17,7 +17,7 @@ const Footer = () => {
         <p>Kayaking Adventures</p>
         <p>Custom African Safari Planner</p>
       </section>
-      <section>
+      <section className="footer-column">
         <h6>Regions</h6>
         <p>Churchill Polar Bear Tours</p>
         <p>Galapagos Cruises & Tours</p>
@@ -30,7 +30,7 @@ const Footer = () => {
         <p>U.S. National Parks Tours</p>
         <p>Europe Adventures</p>
       </section>
-      <section>
+      <section className="footer-column">
         <h6>About Us</h6>
         <p>Our Trips</p>
         <p>Why Travel With Us?</p>
@@ -44,7 +44,7 @@ const Footer = () => {
         <p>Blogs</p>
         <p>Contact Us</p>
       </section>
-      <section>
+      <section className="footer-column">
         <h6>Travel Resources</h6>
         <p>Trip Forms</p>
         <p>Nat Hab Gear Store</p>

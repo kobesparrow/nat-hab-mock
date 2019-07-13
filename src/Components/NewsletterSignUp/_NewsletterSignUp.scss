@@ -12,7 +12,7 @@
 }
 
 .newsletter-intro {
-  width: 205px;
+  width: 260px;
   margin-right: 40px;
 
   section {
@@ -35,6 +35,8 @@
 .newsletter-form {
   display: flex;
   align-items: center;
+  position: relative;
+  bottom: 6px;
 
   div {
     display: flex;

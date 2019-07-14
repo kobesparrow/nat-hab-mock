@@ -64,11 +64,11 @@ const Footer = () => {
         </section>
       </section>
       <section className="social-icons">
-        <img src={instagram} alt="instagram logo" />
-        <img src={facebook} alt="facebook logo" />
-        <img src={youtube} alt="youtube logo" />
-        <img src={twitter} alt="twitter logo" />
-        <img src={pinterest} alt="pinterest logo" />
+        <img src={instagram} className="social-icon" id="instagram" alt="instagram logo" />
+        <img src={facebook} className="social-icon" id="facebook" alt="facebook logo" />
+        <img src={youtube} className="social-icon" id="youtube" alt="youtube logo" />
+        <img src={twitter} className="social-icon" id="twitter" alt="twitter logo" />
+        <img src={pinterest} className="social-icon" id="pinterest" alt="pinterest logo" />
       </section>
       <section className="contact-info">
         <section className="phone-numbers">
@@ -81,8 +81,8 @@ const Footer = () => {
             <p>International</p>
           </div>
         </section>
-      <p>PO Box 3065 • Boulder, CO USA 8037</p>
-      <p>Copyright C 2019 • Natural Habitat Adventures • Web Design by Solo Creative Co.</p>
+        <p>PO Box 3065 • Boulder, CO USA 8037</p>
+        <p>Copyright © 2019 • Natural Habitat Adventures • Web Design by Solo Creative Co.</p>
       </section>
     </section>
   )

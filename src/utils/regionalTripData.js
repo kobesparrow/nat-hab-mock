@@ -37,7 +37,7 @@ const regionalTripData = [
   },
   { id: 7,
     title: "South American Adventures",
-    details: "Mexico & Central America Tours",
+    details: "Explore amazing biodiversity and wild wonders from the Amazon to the Andes",
     image: "https://i.postimg.cc/bwnV1qg2/83-Peaks-Lakes-Glaciers-of-Patagonia.jpg",
     alt: "photo of animals in Peru"
   },

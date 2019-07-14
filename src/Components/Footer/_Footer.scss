@@ -16,10 +16,24 @@
 
   h6 {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   p {
     font-size: 15px;
+    border: 1px;
+    padding: 3px 0px;
+    position: relative;
+    border-bottom: 1px solid #22324B;
+    display: inline-block;
+    margin: 6px 0px;
+    font-weight: 100;
+  }
+  
+  p:hover {
+    cursor: pointer;
+    border-bottom: 1px solid;
+    transition: border-bottom .3s ease;
   }
 }
 

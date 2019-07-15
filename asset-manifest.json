@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nat-hab-mock/static/css/main.1ca5d61b.chunk.css",
+    "main.css": "/nat-hab-mock/static/css/main.34b47d23.chunk.css",
     "main.js": "/nat-hab-mock/static/js/main.93f51d70.chunk.js",
     "main.js.map": "/nat-hab-mock/static/js/main.93f51d70.chunk.js.map",
     "runtime~main.js": "/nat-hab-mock/static/js/runtime~main.a0a616ff.js",
@@ -8,9 +8,9 @@
     "static/js/2.46c3ff79.chunk.js": "/nat-hab-mock/static/js/2.46c3ff79.chunk.js",
     "static/js/2.46c3ff79.chunk.js.map": "/nat-hab-mock/static/js/2.46c3ff79.chunk.js.map",
     "index.html": "/nat-hab-mock/index.html",
-    "precache-manifest.b4343048d5213ff5dcb063984f4b97e8.js": "/nat-hab-mock/precache-manifest.b4343048d5213ff5dcb063984f4b97e8.js",
+    "precache-manifest.62ce786856befb97eaa5322c4bdf1679.js": "/nat-hab-mock/precache-manifest.62ce786856befb97eaa5322c4bdf1679.js",
     "service-worker.js": "/nat-hab-mock/service-worker.js",
-    "static/css/main.1ca5d61b.chunk.css.map": "/nat-hab-mock/static/css/main.1ca5d61b.chunk.css.map",
+    "static/css/main.34b47d23.chunk.css.map": "/nat-hab-mock/static/css/main.34b47d23.chunk.css.map",
     "static/media/accolades-splash.jpg": "/nat-hab-mock/static/media/accolades-splash.60569405.jpg",
     "static/media/catalog-2x.jpg": "/nat-hab-mock/static/media/catalog-2x.b81e4561.jpg",
     "static/media/base.scss": "/nat-hab-mock/static/media/cheetahs.6797926a.jpg",

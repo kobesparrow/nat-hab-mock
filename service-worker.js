@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nat-hab-mock/precache-manifest.5059d4f1add5ed3f13fb53e7e8c56455.js"
+  "/nat-hab-mock/precache-manifest.4804d5fbbc66bd5bd63b47241b222f06.js"
 );
 
 self.addEventListener('message', (event) => {

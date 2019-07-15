@@ -1,5 +1,5 @@
 import React from 'react';
-import cheetas from '../../images/cheetahs.jpg';
+// import cheetas from '../../images/cheetahs.jpg';
 
 const Splash = () => {
   return (

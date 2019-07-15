@@ -1,8 +1,8 @@
 import React from 'react';
-import outsideLogo from '../../images/logo-outside.png';
-import outsideBadge from '../../images/logo-outside-badge.png';
-import natGeo from '../../images/logo-nat-geo-traveler.png';
-import accoladesSplash from '../../images/accolades-splash.jpg';
+import outsideLogo from '../../utils/images/logo-outside.png';
+import outsideBadge from '../../utils/images/logo-outside-badge.png';
+import natGeo from '../../utils/images/logo-nat-geo-traveler.png';
+import accoladesSplash from '../../utils/images/accolades-splash.jpg';
 
 const Accolades = () => {
   
@@ -24,7 +24,7 @@ const Accolades = () => {
         </article>
       </section>
       <p id="learn-more-link">VIEW MORE AWARDS</p>
-      <img src={accoladesSplash} id="accolades-splash" alt="travelers and guide looking through viewfinder" />
+      <img src={accoladesSplash} id="accolades-splashf" alt="travelers and guide looking through viewfinder" />
     </section>
   )
 }

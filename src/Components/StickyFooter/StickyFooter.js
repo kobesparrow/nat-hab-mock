@@ -1,6 +1,6 @@
 import React from 'react';
-import catalog from '../../images/catalog-2x.jpg';
-import wwfIcon from '../../images/logo-wwf.png';
+import catalog from '../../utils/images/catalog-2x.jpg';
+import wwfIcon from '../../utils/images/logo-wwf.png';
 
 
 const StickyFooter = () => {

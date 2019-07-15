@@ -18,7 +18,7 @@ const NewsletterSignUp = () => {
             />
           </div>
           <button>NEXT</button>  
-        <p className="privacy-policy">Privacy Policy</p>
+          <p className="privacy-policy">Privacy<br /> Policy</p>
         </form>
       </section>
     </section>

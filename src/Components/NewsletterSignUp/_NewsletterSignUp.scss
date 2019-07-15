@@ -71,9 +71,17 @@
   }
 
   p {
-    width: 20px;
+    // width: 40px;
     font-weight: 100;
     line-height: 26px;
+    border: 1px solid #23324B;
+    // padding: 2px;
+    display: inline-block;
+  }
+
+  p:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #FFFFFF;
   }
 }
 

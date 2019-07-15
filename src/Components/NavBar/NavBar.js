@@ -18,7 +18,7 @@ const NavBar = () => {
         <h5>RESOURCES</h5>
         <h5>CONTACT US</h5>
         <h5>eNEWS SIGNUP</h5>
-        <h5 className="catalog-link">GET THE CATALOG</h5>
+        <button className="catalog-link">GET THE CATALOG</button>
       </div>
     </header>
   )

@@ -4,14 +4,14 @@ header {
   justify-content: space-between;
   background: #F4F6F9;
   border-bottom: 1px solid #D5D5D5;
-  height: 38px;
+  height: 50px;
   position: fixed;
   width: 100%;
   margin: 0px;
   z-index: 999;
 
   h5 {
-    margin: 10px;
+    margin: 16.5px;
     font-weight: 600;
   }
 
@@ -38,6 +38,8 @@ header {
   height: 90px;
   border: 1px solid #D5D5D5;
   border-radius: 10px;
+  position: relative;
+  top: 5px;
 }
 
 .nav-bar-links {
@@ -45,13 +47,22 @@ header {
 }
 
 .catalog-link {
+  margin-bottom: -1px;
   color: #FFFFFF;
   background-color: #FA6121;
+  border: none;
+  background-clip: padding-box;
+  font-weight: 600;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .catalog-link:hover {
   color: #FFFFFF;
   background-color: #23324B;
   transition: 0.3s;
+  background-clip: border-box;
+  cursor: pointer;
 }
 

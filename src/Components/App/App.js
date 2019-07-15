@@ -21,11 +21,11 @@ function App() {
       <FeaturedTrips />
       <RegionalTrips />
       <AboutMain />
+      <StickyFooter />
       <VideoMain />
       <NewsletterSignUp />
       <Accolades />
       <Footer />
-      <StickyFooter />
     </div>
   )
 }

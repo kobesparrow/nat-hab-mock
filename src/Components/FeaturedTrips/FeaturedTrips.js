@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import FeaturedTripCard from '../FeaturedTripCard/FeaturedTripCard';
+import leftArrow from '../../utils/images/left-arrow.svg'
+import rightArrow from '../../utils/images/right-arrow.svg'
 import { featuredTripData } from '../../utils/featuredTripData';
+
 
 class FeaturedTrips extends Component {
   constructor() {
@@ -78,11 +81,17 @@ class FeaturedTrips extends Component {
       <section className="featured-trips">
         <h3>Featured Trips & Destinations</h3>
         <article className="trip-cards"> 
-          <img src={featuredTripData[this.state.left].image} />
-          <button onClick={this.moveLeft}>Back</button>
-          { featuredTrips[this.state.display] }
-          <button onClick={this.moveRight}>Forward</button>
-          <img src={featuredTripData[this.state.right].image} />
+          <div className="arrow-container">
+            <img src={featuredTripData[this.state.left].image} className="carousel-left" />
+            <button onClick={this.moveLeft}><img src={leftArrow} className="arrow" alt="arrow buttons" /></button>
+          </div>
+          <div className="featured-trip">
+            { featuredTrips[this.state.display] }
+          </div>
+          <div className="arrow-container" >
+            <img src={featuredTripData[this.state.right].image} className="carousel-right" />
+            <button onClick={this.moveRight}><img src={rightArrow} className="arrow" alt="arrow buttons" /></button>
+          </div>
         </article>  
       </section>
     )

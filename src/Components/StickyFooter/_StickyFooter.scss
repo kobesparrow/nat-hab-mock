@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: sticky;
+  top: 88vh;
+  z-index: 800;
 }
 
 .sticky-footer-content {

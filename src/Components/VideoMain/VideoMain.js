@@ -1,11 +1,12 @@
 import React from 'react';
-import YouTube from 'react-youtube';
+import video from '../../utils/images/video-screen-grab.png'
+
 
 const VideoMain = () => {
 
   return (
     <section className="video-main">
-      <YouTube videoID="NJlDF398-bk" />
+      <img src={video} alt="screenshot of NatHabVideo" />
     </section>
   )
 }

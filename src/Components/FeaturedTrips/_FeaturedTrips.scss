@@ -14,7 +14,28 @@
   display: flex;
 
   button {
-    height: 25px;
+    border: none;
     cursor: pointer;
   }
+}
+
+.featured-trip {
+  margin: 0px 30px;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-left {
+  width: 30px;
+}
+
+.carousel-right {
+  width: 30px;
+}
+
+.arrow {
+  width: 35px;
 }

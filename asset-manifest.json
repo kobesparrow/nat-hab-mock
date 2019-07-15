@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90a27891.chunk.css",
+    "main.js": "/static/js/main.580f4dca.chunk.js",
+    "main.js.map": "/static/js/main.580f4dca.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.46c3ff79.chunk.js": "/static/js/2.46c3ff79.chunk.js",
+    "static/js/2.46c3ff79.chunk.js.map": "/static/js/2.46c3ff79.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.db7f0a87a9e86dc03bf20c1d4a79a7f5.js": "/precache-manifest.db7f0a87a9e86dc03bf20c1d4a79a7f5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.90a27891.chunk.css.map": "/static/css/main.90a27891.chunk.css.map",
+    "static/media/accolades-splash.jpg": "/static/media/accolades-splash.60569405.jpg",
+    "static/media/catalog-2x.jpg": "/static/media/catalog-2x.b81e4561.jpg",
+    "static/media/base.scss": "/static/media/cheetahs.6797926a.jpg",
+    "static/media/facebook.svg": "/static/media/facebook.c6e9be45.svg",
+    "static/media/instagram.svg": "/static/media/instagram.da6090b1.svg",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.045fe5e5.svg",
+    "static/media/logo-nat-geo-traveler.png": "/static/media/logo-nat-geo-traveler.5c674042.png",
+    "static/media/logo-outside-badge.png": "/static/media/logo-outside-badge.fe711908.png",
+    "static/media/logo-outside.png": "/static/media/logo-outside.25ae0105.png",
+    "static/media/pinterest.svg": "/static/media/pinterest.2b10a062.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.a6cf488c.svg",
+    "static/media/twitter.svg": "/static/media/twitter.0af2fb38.svg",
+    "static/media/video-screen-grab.png": "/static/media/video-screen-grab.9b2a8b06.png",
+    "static/media/youtube.svg": "/static/media/youtube.cc49b319.svg"
+  }
+}

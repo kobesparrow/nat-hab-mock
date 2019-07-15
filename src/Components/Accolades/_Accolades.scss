@@ -1,0 +1,42 @@
+.accolades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    margin: 75px 0px;
+    font-size: 30px;
+  }
+}
+
+.accolades-info {
+  display: flex;
+  margin-bottom: 40px;
+
+  .individual-accolade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-weight: 100;
+    width: 225px;
+    text-align: center;
+  }
+
+  img {
+    height: 50px;
+  }
+}
+
+.bold-accolade {
+  font-weight: 600;
+}
+
+#outside-badge {
+  height: 70px;
+}
+
+#accolades-splash {
+  margin-top: 60px;
+  width: 100%;
+}

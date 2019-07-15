@@ -1,0 +1,69 @@
+header {
+  color: #AC6303;
+  display: flex;
+  justify-content: space-between;
+  background: #F4F6F9;
+  border-bottom: 1px solid #D5D5D5;
+  height: 50px;
+  position: fixed;
+  width: 100vw;
+  margin: 0px;
+  z-index: 999;
+
+  h5 {
+    margin: 16.5px;
+    font-weight: 600;
+  }
+
+  h5:hover {
+    color: #333333;
+    cursor: pointer;
+  }
+}
+
+.nav-bar-icons {
+  margin: 10px 0px 0px 25px;
+  display: flex;
+}
+
+.nat-hab-logo {
+  height: 100px;
+  margin-right: 10px;
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.wwf-logo {
+  height: 90px;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.nav-bar-links {
+  display: flex;
+}
+
+.catalog-link {
+  margin-bottom: -1px;
+  color: #FFFFFF;
+  background-color: #FA6121;
+  border: none;
+  background-clip: padding-box;
+  font-weight: 600;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  // margin-right: 0px;
+}
+
+.catalog-link:hover {
+  color: #FFFFFF;
+  background-color: #23324B;
+  transition: 0.3s;
+  background-clip: border-box;
+  cursor: pointer;
+}
+

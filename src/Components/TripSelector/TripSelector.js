@@ -3,7 +3,7 @@ import React from 'react';
 const TripSelector = () => {
 
   return (
-    <section>
+    <section className="trip-selector">
       <form>
         <select name="By Region">
           <option value="By Region">By Region</option>

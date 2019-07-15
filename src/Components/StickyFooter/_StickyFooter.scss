@@ -1,0 +1,47 @@
+.sticky-footer {
+  background-color: #FA6121;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 88vh;
+  z-index: 800;
+}
+
+.sticky-footer-content {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  
+  #catalog-icon {
+    height: 100px;
+    margin-right: 20px;
+    position: relative;
+    top: -20px;
+  }
+
+  button {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #FA6121;
+    padding: 12px 16px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  p {
+    font-weight: 100;
+    margin-left: 40px;
+  }
+}
+
+#wwf-sticky {
+  height: 70px;
+  margin-left: 20px;
+  border-radius: 0px;
+}

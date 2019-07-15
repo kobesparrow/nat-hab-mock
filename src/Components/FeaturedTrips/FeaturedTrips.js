@@ -85,7 +85,7 @@ class FeaturedTrips extends Component {
             <div className="left-image-crop">
               <img src={featuredTripData[this.state.left].image} className="carousel-left" />
             </div>
-            <button onClick={this.moveLeft}><img src={leftArrow} className="arrow" alt="arrow buttons" /></button>
+            <button onClick={this.moveLeft}><img src={leftArrow} className="arrow-left" alt="arrow buttons" /></button>
           </div>
           <div className="featured-trip">
             { featuredTrips[this.state.display] }
@@ -94,7 +94,7 @@ class FeaturedTrips extends Component {
             <div className="right-image-crop">
               <img src={featuredTripData[this.state.right].image} className="carousel-right" />
             </div>
-            <button onClick={this.moveRight}><img src={rightArrow} className="arrow" alt="arrow buttons" /></button>
+            <button onClick={this.moveRight}><img src={rightArrow} className="arrow-right" alt="arrow buttons" /></button>
           </div>
         </article>  
       </section>

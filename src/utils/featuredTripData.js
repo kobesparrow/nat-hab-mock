@@ -74,7 +74,7 @@ export const featuredTripData = [
   { id: 10,
     image: "https://i.postimg.cc/9FTCQRS6/30-31-Kenya-Migration-repater.jpg",
     title: "The Great Kenya Migration Safari",
-    details: `Experience one of the world's most incredible wildlife events in Africa's most classic safari destination&mdash;Kenya, home to the massive movement of creatures that is the Great Migration!`,
+    details: `Experience one of the world's most incredible wildlife events in Africa's most classic safari destination — Kenya, home to the massive movement of creatures that is the Great Migration!`,
     timeline: `8 Days / Jul – Sep, From $8995 (+air)`,
     addon: false,
     additionalDetails: null

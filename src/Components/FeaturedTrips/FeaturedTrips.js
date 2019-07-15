@@ -82,14 +82,18 @@ class FeaturedTrips extends Component {
         <h3>Featured Trips & Destinations</h3>
         <article className="trip-cards"> 
           <div className="arrow-container">
-            <img src={featuredTripData[this.state.left].image} className="carousel-left" />
+            <div className="left-image-crop">
+              <img src={featuredTripData[this.state.left].image} className="carousel-left" />
+            </div>
             <button onClick={this.moveLeft}><img src={leftArrow} className="arrow" alt="arrow buttons" /></button>
           </div>
           <div className="featured-trip">
             { featuredTrips[this.state.display] }
           </div>
           <div className="arrow-container" >
-            <img src={featuredTripData[this.state.right].image} className="carousel-right" />
+            <div className="right-image-crop">
+              <img src={featuredTripData[this.state.right].image} className="carousel-right" />
+            </div>
             <button onClick={this.moveRight}><img src={rightArrow} className="arrow" alt="arrow buttons" /></button>
           </div>
         </article>  

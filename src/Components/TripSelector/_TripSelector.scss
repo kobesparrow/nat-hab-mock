@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   position: sticky;
-  top: 38px;
+  top: 50px;
   z-index: 900;
 
   select {
     height: 45px;
-    width: 175px;
+    width: 205px;
     font-size: 20px;
     font-weight: 200;
     margin: 30px 10px;
@@ -26,5 +26,6 @@
     margin: 30px 10px;
     position: relative;
     top: -1px;
+    cursor: pointer;
   }
 }

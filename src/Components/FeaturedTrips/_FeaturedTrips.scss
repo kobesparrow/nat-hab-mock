@@ -5,6 +5,7 @@
   margin-bottom: 50px;
 
   h3 {
+    margin: 40px auto;
     font-size: 25px;
     align-items: 50px;
   }
@@ -20,7 +21,7 @@
 }
 
 .featured-trip {
-  margin: 0px 30px;
+  margin: 0px 40px;
 }
 
 .arrow-container {
@@ -29,11 +30,23 @@
 }
 
 .carousel-left {
-  width: 30px;
+  height: 350px;
+  margin-bottom: 20px;
 }
 
 .carousel-right {
-  width: 30px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.right-image-crop {
+  max-width: 13vh;
+  overflow: hidden;
+}
+
+.left-image-crop {
+  max-width: 13vh;
+  overflow: hidden;
 }
 
 .arrow {

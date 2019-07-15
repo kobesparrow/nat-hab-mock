@@ -1,6 +1,9 @@
 .video-main {
   margin: -5px;
-  height: 100vh;
+
+  img {
+    width: 99.65%;
+  }
 
   img:hover {
     cursor: pointer;

@@ -6,7 +6,7 @@ header {
   border-bottom: 1px solid #D5D5D5;
   height: 50px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   margin: 0px;
   z-index: 999;
 
@@ -56,6 +56,7 @@ header {
   font-size: 13px;
   padding-left: 13px;
   padding-right: 13px;
+  // margin-right: 0px;
 }
 
 .catalog-link:hover {

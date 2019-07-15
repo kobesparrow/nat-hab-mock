@@ -1,11 +1,10 @@
 .featured-trip-card {
   width: 1150px;
   height: 600px;
-  box-shadow: 6px 6px 15px -2px #282828;
+  box-shadow: 6px 6px 12px -2px #888888;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 
   p {
     font-weight: 100;
@@ -16,6 +15,12 @@
     font-weight: bold;
     margin-top: 30px;
   }
+}
+
+.featured-trip-card:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 20px 0px #686868;
+
 }
 
 .feature-trip-image {

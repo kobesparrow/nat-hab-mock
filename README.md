@@ -6,7 +6,7 @@ A static composition of Natural Habitat Adventures landing page built over the c
 
 View the project on github pages: [Nat Hab Mock Site](https://kobesparrow.github.io/nat-hab-mock/)
 
-##Motivations
+## Motivations
 
 After applying for a junior developer position at Natural Habitat Adventures I took it upon myself to build the organization's landing page from scratch. 
 

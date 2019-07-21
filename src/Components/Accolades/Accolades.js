@@ -24,7 +24,7 @@ const Accolades = () => {
         </article>
       </section>
       <p id="learn-more-link">VIEW MORE AWARDS</p>
-      <img src={accoladesSplash} id="accolades-splashf" alt="travelers and guide looking through viewfinder" />
+      <img src={accoladesSplash} id="accolades-splash" alt="travelers and guide looking through viewfinder" />
     </section>
   )
 }
